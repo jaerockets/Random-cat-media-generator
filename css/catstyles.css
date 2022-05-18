@@ -39,8 +39,6 @@ div.url {
 }
 
 .image {
-    border: 5px solid black;
-    max-width: 75%;
     margin: auto;
     position: absolute;
     top: 50%;
@@ -48,5 +46,9 @@ div.url {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     padding: 25px;
-    height: auto;
+}
+
+.viewport {
+    height: 100px;
+    width: 100px;
 }
